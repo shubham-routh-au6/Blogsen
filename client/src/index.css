@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.heading {
+  display: flex;
+  background-color: #625261;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.loginBtn {
+  width: 6rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #89beb3;
+}
+.headingText {
+  color: lightgreen;
+  font-family: cursive;
+}
+.imageLogo {
+  margin-top: -1rem;
+}
+.registerPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 552px;
+}
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 552px;
+}
+.logout_btn {
+  background-color: black !important;
+  color: blue !important;
+}
+.errorHead {
+  color: red;
+}
+.link_re {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.3em;
+}
+.welcomeParaForReg {
+  color: black;
+  font-size: 1.5rem;
+}
+.logoutBtnRender {
+  margin: 2rem;
+}
+
+.blogForm {
+  margin: auto;
+  width: 80%;
+}
+.uploadContainer {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 90vh;
+  width: 100%;
+}
+.uploadContainer1 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 90vh;
+  width: 100%;
+}
+.adminSidebar {
+  background-color: rgb(58, 27, 65);
+}
+.headerName {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  color: rgb(159, 174, 218);
+}
+.listItems {
+  margin-left: 1em;
+  margin-top: 2em;
+  padding: 1em;
+}
+.buttonLink {
+  color: rgb(204, 212, 236);
+}
+.uploadContainerAndPagination1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.videoLabel {
+  width: 200px;
+  background-color: rgb(187, 82, 140) !important;
+  color: white !important;
+  padding: 1em !important;
+  margin-right: 2em !important;
+}
+li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  outline: none;
+}
+
+.text_Msg1 {
+  color: red;
+  text-align: center;
+}
+.text_Msg {
+  color: green;
+  text-align: center;
+}
+.loaddeer {
+  font-size: 2em !important;
+  margin-bottom: 2rem !important;
+}
+.landingPage {
+  min-height: 100vh;
+}
+
+.blogAll {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blogAll1 {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.landingPage1 {
+  background-color: lightcyan;
+  padding: 1rem;
+  min-height: 120vh;
+}
+.adminDashboard {
+  color: #181117 !important;
+}
+.welcomeDash {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.perBlog {
+  background-color: #264653;
+  border: 0.2rem solid;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.1rem 0.1rem rgb(22, 21, 18);
+  width: 80%;
+
+  padding: 2rem;
+  color: white;
+}
+.perBlog1 {
+  background-color: #264653;
+  border: 0.2rem solid;
+  margin: 2rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.1rem 0.1rem rgb(22, 21, 18);
+  width: 40%;
+  height: 380px;
+  padding: 0.5rem;
+  color: white;
+}
+.titleBlog {
+  box-shadow: 0 0 0.1rem 0.1rem rgb(22, 21, 18);
+  padding: 0.5rem;
+  margin: 0.3rem;
+  background-color: white;
+  color: black;
+}
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: black 2px solid;
+  box-shadow: 0 0 0.2rem 0.1rem #181117;
+  background-color: #2a9d8f;
+}
+.imageBlog {
+  height: 25rem;
+  width: 25rem;
+}
+.imageBlog1 {
+  height: 10rem;
+  width: 10rem;
+}
+.editBtn {
+  margin: 1rem !important;
+}
+.vidDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black 2px solid;
+  background-color: #2a9d8f;
+  box-shadow: 0 0 0.2rem 0.1rem #181117;
+}
+.imgVideo {
+  display: grid;
+  grid-template-columns: 48% 48%;
+
+  align-content: space-around;
+  justify-content: space-between;
+}
+.linkDiv {
+  margin: 1rem !important;
+}

@@ -12,7 +12,6 @@
 
 <!-- [<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://open.spotify.com/user/swyqyimdc12jajde4vpwd2x1b) -->
 
-(https://blogsen.netlify.app/)
 
 ### Languages and Tools:
 
@@ -33,7 +32,6 @@
 ---
 
 <details>
-  <summary>If anyone looking to clone this code would require to create a .env file and import your Mongo_uri and Secret_key for generating token.</summary>
 
 Keep Coding!!
 
